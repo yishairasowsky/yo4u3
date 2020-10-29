@@ -1,0 +1,20 @@
+{
+  "devtools_port": 9090,
+  "licenseKey": "request-a-key",
+  "startup_app": {
+    "name": "OpenFin Notification Service Sample",
+    "description": "Just a very bare bones example of spinning up a background app that can push notifications to a user",
+    "url": "https://8tqeg.csb.app/service.html",
+    "uuid": "openfin-notifications-service-sample",
+    "autoShow": true,
+    "applicationIcon": "https://8tqeg.csb.app/favicon.ico"
+  },
+  "runtime": {
+    "version": "stable"
+  },
+  "services": [
+    {
+      "name": "notifications"
+    }
+  ]
+}
